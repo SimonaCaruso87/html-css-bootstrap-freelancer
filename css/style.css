@@ -24,13 +24,13 @@ body{
  
     /* COLOR BACKGROUND*/
    
-       --first-color:#006CFA;
-       --second-color:#00E165;
+       --first-color: #2C3E50;
+       --second-color:#1ABC9C;
    
     /* COLOR TEXT */ 
    
        --first-text:#FFFFFF;
-       --second-text:white;
+       --second-text:rgb(3, 1, 1);
        --third-text:#6A6A6A;
    }
    
@@ -50,6 +50,13 @@ body{
 /*
    HEADER
 */
+header .navbar{
+    background-color: var(--first-color);
+}
+
+header .navbar a{
+    color:var(--first-text);
+}
 
 
 /*
@@ -76,7 +83,6 @@ body{
 
     /* COLUMNS */
 
-    
 
 }
 
@@ -118,5 +124,10 @@ body{
     DEBUG
 *************************************************/
     
-    
-    
+.debug{
+    border:2px dashed lightcoral;
+}  
+
+
+
+
