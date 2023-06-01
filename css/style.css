@@ -12,6 +12,7 @@ E UN CONTAIENR INTERNO CHE PRENDE L'80% DI LARGHEZZA
     margin: 0 auto;
 }
 
+
 /************************************************
     CUSTOM PROPERTIES
 ************************************************/
@@ -38,8 +39,17 @@ E UN CONTAIENR INTERNO CHE PRENDE L'80% DI LARGHEZZA
    HEADER
 */
 
+.color-simona-1{
+    background-color: var(--first-color);
+}
 
+.color-simona-2{
+    background-color: var(--second-color);
+}
 
+hr{
+    width: 20%;
+}
 /*
    MAIN
 */
