@@ -50,6 +50,14 @@ E UN CONTAIENR INTERNO CHE PRENDE L'80% DI LARGHEZZA
 hr{
     width: 20%;
 }
+
+.hr-footer > hr{
+    width:100%;
+}
+
+textarea{
+    width:100%
+}
 /*
    MAIN
 */
