@@ -51,6 +51,11 @@ hr{
     width: 20%;
 }
 
+
+/*
+   MAIN
+*/
+
 .hr-footer > hr{
     width:100%;
 }
@@ -58,15 +63,14 @@ hr{
 textarea{
     width:100%
 }
-/*
-   MAIN
-*/
-
 
 /* 
     FOOTER
 */
 
 
+.width-container{
+    height: 30%;
+}
   
 
