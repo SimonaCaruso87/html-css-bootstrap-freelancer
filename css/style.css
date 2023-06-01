@@ -1,19 +1,15 @@
 /*************************************************
-    RESET
-*************************************************/
-
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/*************************************************
     GENERAL STYLES
 *************************************************/
 
-body{
-    font-family: 'Montserrat', sans-serif;     
+/* CONTAINER ESTERNO CHE DI DIMENSIONA 
+CON LA MAX-WIDTH E CHE TIENE LA DIMENSIONE 
+E UN CONTAIENR INTERNO CHE PRENDE L'80% DI LARGHEZZA
+ DEL SUO GENITORE */
+
+.my-container{
+    width: 80%;
+    margin: 0 auto;
 }
 
 /************************************************
@@ -33,15 +29,6 @@ body{
        --second-text:rgb(3, 1, 1);
        --third-text:#6A6A6A;
    }
-   
-/************************************************
-    UTILITIES
-************************************************/
- 
-/* 
-    LAYOUT 
-*/
-
  
 /************************************************
     SITE SECTIONS
@@ -50,13 +37,7 @@ body{
 /*
    HEADER
 */
-header .navbar{
-    background-color: var(--first-color);
-}
 
-header .navbar a{
-    color:var(--first-text);
-}
 
 
 /*
@@ -70,64 +51,4 @@ header .navbar a{
 
 
   
-
-/************************************************
-    SOLUZIONE RESPONSIVE-MEDIA-QUERY MOBILE-FIRST
-************************************************/
-
-/* 
-    MOBILE BIG 
-*/
-
-@media screen and (min-width:576px){
-
-    /* COLUMNS */
-
-
-}
-
-
-/* 
-  TABLET
-*/
-
-@media screen and (min-width:768px){
-     
-    /*  COLUMNS  */
-
-
-
-}
-
-/*
-  DESKTOP
-*/
- 
-@media screen and (min-width:992px){
-
-    /*  COLUMNS  */
-
-
-
-}
-
-
-
-/*************************************************
-    SOLUZIONE RESPONSIVE-MEDIA-QUERY DESKTOP-FIRST
-*************************************************/
-
-
-
-
-/*************************************************
-    DEBUG
-*************************************************/
-    
-.debug{
-    border:2px dashed lightcoral;
-}  
-
-
-
 
